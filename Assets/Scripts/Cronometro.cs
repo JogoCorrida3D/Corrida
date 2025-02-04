@@ -23,7 +23,7 @@ public class Cronometro : MonoBehaviour
             int segundos = Mathf.FloorToInt(tempoDecorrido % 60f);
             int milissegundos = Mathf.FloorToInt((tempoDecorrido * 1000) % 1000);
 
-            textTela.text = $"{minutos:D2}:{segundos:D2}:{milissegundos:D3}";
+            textTela.text = $"{minutos:D2}:{segundos:D2}";
         }
     }
 
